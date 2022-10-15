@@ -1,0 +1,210 @@
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~
+$ ls
+ 1s
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ LIVWA.sql
+ LIVWA1.sql
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{fe933236-c8f1-11ec-9569-d2532b547955}.TM.blf
+ NTUSER.DAT{fe933236-c8f1-11ec-9569-d2532b547955}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fe933236-c8f1-11ec-9569-d2532b547955}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Oracle/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ alterr.sql
+ ansel/
+ facebook_facebook/
+ movie.sql
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ sql.sql
+ vasu.sql
+ vasu1.sql
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~
+$ mkdir movie
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~
+$ ls
+ 1s
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ LIVWA.sql
+ LIVWA1.sql
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{fe933236-c8f1-11ec-9569-d2532b547955}.TM.blf
+ NTUSER.DAT{fe933236-c8f1-11ec-9569-d2532b547955}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fe933236-c8f1-11ec-9569-d2532b547955}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Oracle/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ alterr.sql
+ ansel/
+ facebook_facebook/
+ movie/
+ movie.sql
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ sql.sql
+ vasu.sql
+ vasu1.sql
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~
+$ cd movie
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie
+$ git init
+Initialized empty Git repository in C:/Users/TUF GAMING/movie/.git/
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git remote add origin https://github.com/kiruba007007/movie.git
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git check out main
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ ls
+'marico company.txt'
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git add .
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git commit -m'index commit'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'TUF GAMING@DESKTOP-RNQ312V.(none)')
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git config --global user.email "kiruba0605200@gmail.com"
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$  git config --global user.name "kiruba007007"
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git commit -m 'add index'
+[master (root-commit) ee15176] add index
+ 1 file changed, 24 insertions(+)
+ create mode 100644 marico company.txt
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git remote -v
+origin  https://github.com/kiruba007007/movie.git (fetch)
+origin  https://github.com/kiruba007007/movie.git (push)
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git branch -a
+* master
+
+TUF GAMING@DESKTOP-RNQ312V MINGW64 ~/movie (master)
+$ git push --set-upstream origin master
+$ git push --set- upstream origin master
